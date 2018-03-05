@@ -1,0 +1,7 @@
+玩法	wz_strategy
+英雄	wz_hero
+皮肤	wz_skin
+版本公告	wz_notice
+赛事	wz_event
+活动	wz_activity
+其他	wz_other
