@@ -34,3 +34,14 @@ solve: install ipython & jupyter in virutalenv (note the order)
 ## Issue 2: Install rz & sz
 
 ref: https://github.com/mmastrac/iterm2-zmodem
+
+## Issue 3: iterm2 copy session
+
+add one profile in **Profiles** 
+
+vim ~/.ssh/config
+```
+host *
+ControlMaster auto
+ControlPath ~/.ssh/master-%r@%h:%p
+```
